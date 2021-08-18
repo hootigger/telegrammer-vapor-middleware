@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
-        .package(url: "https://github.com/hootigger/Telegrammer.git", .branch("bot-api-5.0"))
+        .package(url: "https://github.com/hootigger/Telegrammer.git", .branch("bot-api-5"))
     ],
     targets: [
         .target(name: "TelegrammerMiddleware", dependencies: [
