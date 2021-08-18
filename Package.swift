@@ -13,8 +13,8 @@ let package = Package(
         .library(name: "TelegrammerMiddleware", targets: ["TelegrammerMiddleware"])
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0-beta"),
-        .package(url: "https://github.com/givip/Telegrammer.git", from: "1.0.0-alpha")
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
+        .package(url: "https://github.com/hootigger/Telegrammer.git", .branch("bot-api-5.0"))
     ],
     targets: [
         .target(name: "TelegrammerMiddleware", dependencies: [
